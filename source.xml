@@ -1,0 +1,30 @@
+        <customers>
+            <customer>
+                <name>arjun</name>
+                <value>112</value>
+            </customer>
+            <customer>
+                <name>arjun</name>
+                <value>113</value>
+            </customer>
+
+            
+
+            <lookups>
+                <node>
+                    <key>112</key>
+                    <value>Value = 112 </value>
+                </node>
+                <node>
+                    <key>113</key>
+                    <value>Value = 113 </value>
+                </node>
+                <node>
+                    <key>114</key>
+                    <value>Value = 114 </value>
+                </node>
+            </lookups>
+
+            
+
+        </customers>
