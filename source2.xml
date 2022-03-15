@@ -1,0 +1,185 @@
+<queryResponse xmlns="">
+    <result type="QueryResult">
+        <done>true</done>
+        <queryLocator nil="true"/>
+        <records type="sf:sObject">
+            <type>AggregateResult</type>
+            <Id nil="true"/>
+            <expr0 type="xsd:double">48.23</expr0>
+            <ProductCode>001</ProductCode>
+            <Name>Ground</Name>
+            <expr1 type="xsd:double">7.0</expr1>
+        </records>
+        <records type="sf:sObject">
+            <type>AggregateResult</type>
+            <Id nil="true"/>
+            <expr0 type="xsd:double">4.18</expr0>
+            <ProductCode>004</ProductCode>
+            <Name>Super Saver</Name>
+            <expr1 type="xsd:double">2.0</expr1>
+        </records>
+        <records type="sf:sObject">
+            <type>AggregateResult</type>
+            <Id nil="true"/>
+            <expr0 type="xsd:double">28.12</expr0>
+            <ProductCode>test001</ProductCode>
+            <Name>Test Item 1</Name>
+            <expr1 type="xsd:double">1.0</expr1>
+        </records>
+        <records type="sf:sObject">
+            <type>AggregateResult</type>
+            <Id nil="true"/>
+            <expr0 type="xsd:double">134.82</expr0>
+            <ProductCode>test003</ProductCode>
+            <Name>Test Item 3</Name>
+            <expr1 type="xsd:double">5.0</expr1>
+        </records>
+        <records type="sf:sObject">
+            <type>AggregateResult</type>
+            <Id nil="true"/>
+            <expr0 type="xsd:double">10.5</expr0>
+            <ProductCode>002</ProductCode>
+            <Name>2-Day Express</Name>
+            <expr1 type="xsd:double">1.0</expr1>
+        </records>
+        <records type="sf:sObject">
+            <type>AggregateResult</type>
+            <Id nil="true"/>
+            <expr0 type="xsd:double">100.8</expr0>
+            <ProductCode>1729</ProductCode>
+            <Name>AnteAGE Home MicroNeedling System</Name>
+            <expr1 type="xsd:double">1.0</expr1>
+        </records>
+        <records type="sf:sObject">
+            <type>AggregateResult</type>
+            <Id nil="true"/>
+            <expr0 type="xsd:double">63.0</expr0>
+            <ProductCode>1307</ProductCode>
+            <Name>Art of Skin Care Base Coat  SPF 45</Name>
+            <expr1 type="xsd:double">5.0</expr1>
+        </records>
+        <records type="sf:sObject">
+            <type>AggregateResult</type>
+            <Id nil="true"/>
+            <expr0 type="xsd:double">52.5</expr0>
+            <ProductCode>1324</ProductCode>
+            <Name>Art of Skin Care Daily Zinc SPF 40</Name>
+            <expr1 type="xsd:double">1.0</expr1>
+        </records>
+        <records type="sf:sObject">
+            <type>AggregateResult</type>
+            <Id nil="true"/>
+            <expr0 type="xsd:double">109.2</expr0>
+            <ProductCode>650</ProductCode>
+            <Name>Le Mieux 24 Hour Age Defying Cream</Name>
+            <expr1 type="xsd:double">2.0</expr1>
+        </records>
+        <records type="sf:sObject">
+            <type>AggregateResult</type>
+            <Id nil="true"/>
+            <expr0 type="xsd:double">37.8</expr0>
+            <ProductCode>2535</ProductCode>
+            <Name>Michele Corley Blemish Be Gone Serum</Name>
+            <expr1 type="xsd:double">1.0</expr1>
+        </records>
+        <records type="sf:sObject">
+            <type>AggregateResult</type>
+            <Id nil="true"/>
+            <expr0 type="xsd:double">82.32</expr0>
+            <ProductCode>279</ProductCode>
+            <Name>Rhonda Allison Eye &amp; Lip Renew Serum</Name>
+            <expr1 type="xsd:double">1.0</expr1>
+        </records>
+        <records type="sf:sObject">
+            <type>AggregateResult</type>
+            <Id nil="true"/>
+            <expr0 type="xsd:double">44.94</expr0>
+            <ProductCode>1515</ProductCode>
+            <Name>Hale &amp; Hush Brilliant Eye &amp; Lip Serum</Name>
+            <expr1 type="xsd:double">1.0</expr1>
+        </records>
+        <records type="sf:sObject">
+            <type>AggregateResult</type>
+            <Id nil="true"/>
+            <expr0 type="xsd:double">52.5</expr0>
+            <ProductCode>2489</ProductCode>
+            <Name>Art of Skin Care Skin Perfection SPF 40</Name>
+            <expr1 type="xsd:double">1.0</expr1>
+        </records>
+        <size>13</size>
+    </result>
+    <QueryResponse maxResults="18" startPosition="1">
+        <Item sparse="true">
+            <Id>3</Id>
+            <FullyQualifiedName>001</FullyQualifiedName>
+        </Item>
+        <Item sparse="true">
+            <Id>4</Id>
+            <FullyQualifiedName>Design</FullyQualifiedName>
+        </Item>
+        <Item sparse="true">
+            <Id>6</Id>
+            <FullyQualifiedName>Gardening</FullyQualifiedName>
+        </Item>
+        <Item sparse="true">
+            <Id>2</Id>
+            <FullyQualifiedName>Hours</FullyQualifiedName>
+        </Item>
+        <Item sparse="true">
+            <Id>7</Id>
+            <FullyQualifiedName>Installation</FullyQualifiedName>
+        </Item>
+        <Item sparse="true">
+            <Id>8</Id>
+            <FullyQualifiedName>Lighting</FullyQualifiedName>
+        </Item>
+        <Item sparse="true">
+            <Id>9</Id>
+            <FullyQualifiedName>Maintenance &amp; Repair</FullyQualifiedName>
+        </Item>
+        <Item sparse="true">
+            <Id>10</Id>
+            <FullyQualifiedName>Pest Control</FullyQualifiedName>
+        </Item>
+        <Item sparse="true">
+            <Id>11</Id>
+            <FullyQualifiedName>test001</FullyQualifiedName>
+        </Item>
+        <Item sparse="true">
+            <Id>12</Id>
+            <FullyQualifiedName>Refunds &amp; Allowances</FullyQualifiedName>
+        </Item>
+        <Item sparse="true">
+            <Id>5</Id>
+            <FullyQualifiedName>Rock Fountain</FullyQualifiedName>
+        </Item>
+        <Item sparse="true">
+            <Id>13</Id>
+            <FullyQualifiedName>Rocks</FullyQualifiedName>
+        </Item>
+        <Item sparse="true">
+            <Id>1</Id>
+            <FullyQualifiedName>Services</FullyQualifiedName>
+        </Item>
+        <Item sparse="true">
+            <Id>14</Id>
+            <FullyQualifiedName>Sod</FullyQualifiedName>
+        </Item>
+        <Item sparse="true">
+            <Id>15</Id>
+            <FullyQualifiedName>Soil</FullyQualifiedName>
+        </Item>
+        <Item sparse="true">
+            <Id>16</Id>
+            <FullyQualifiedName>Sprinkler Heads</FullyQualifiedName>
+        </Item>
+        <Item sparse="true">
+            <Id>17</Id>
+            <FullyQualifiedName>Sprinkler Pipes</FullyQualifiedName>
+        </Item>
+        <Item sparse="true">
+            <Id>18</Id>
+            <FullyQualifiedName>Trimming</FullyQualifiedName>
+        </Item>
+    </QueryResponse>
+</queryResponse>
