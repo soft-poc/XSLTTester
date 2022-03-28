@@ -1,0 +1,522 @@
+
+        <queryResponse xmlns="">
+
+            <result type="QueryResult">
+
+                <done>true</done>
+
+                <queryLocator nil="true"/>
+
+                <records type="sf:sObject">
+
+                    <type>AggregateResult</type>
+
+                    <Id nil="true"/>
+
+                    <expr0 type="xsd:double">320.84</expr0>
+
+                    <ProductCode>001</ProductCode>
+
+                    <Name>Ground</Name>
+
+                    <expr1 type="xsd:double">46.0</expr1>
+
+                </records>
+
+                <records type="sf:sObject">
+
+                    <type>AggregateResult</type>
+
+                    <Id nil="true"/>
+
+                    <expr0 type="xsd:double">8.36</expr0>
+
+                    <ProductCode>004</ProductCode>
+
+                    <Name>Super Saver</Name>
+
+                    <expr1 type="xsd:double">5.0</expr1>
+
+                </records>
+
+                <records type="sf:sObject">
+
+                    <type>AggregateResult</type>
+
+                    <Id nil="true"/>
+
+                    <expr0 type="xsd:double">28.12</expr0>
+
+                    <ProductCode>test001</ProductCode>
+
+                    <Name>Test Item 1</Name>
+
+                    <expr1 type="xsd:double">1.0</expr1>
+
+                </records>
+
+                <records type="sf:sObject">
+
+                    <type>AggregateResult</type>
+
+                    <Id nil="true"/>
+
+                    <expr0 type="xsd:double">202.24</expr0>
+
+                    <ProductCode>test003</ProductCode>
+
+                    <Name>Test Item 3</Name>
+
+                    <expr1 type="xsd:double">7.0</expr1>
+
+                </records>
+
+                <records type="sf:sObject">
+
+                    <type>AggregateResult</type>
+
+                    <Id nil="true"/>
+
+                    <expr0 type="xsd:double">132.21</expr0>
+
+                    <ProductCode>002</ProductCode>
+
+                    <Name>2-Day Express</Name>
+
+                    <expr1 type="xsd:double">10.0</expr1>
+
+                </records>
+
+                <records type="sf:sObject">
+
+                    <type>AggregateResult</type>
+
+                    <Id nil="true"/>
+
+                    <expr0 type="xsd:double">16.79</expr0>
+
+                    <ProductCode nil="true"/>
+
+                    <Name>Generic Label</Name>
+
+                    <expr1 type="xsd:double">1.0</expr1>
+
+                </records>
+
+                <records type="sf:sObject">
+
+                    <type>AggregateResult</type>
+
+                    <Id nil="true"/>
+
+                    <expr0 type="xsd:double">0.0</expr0>
+
+                    <ProductCode>ASSAMPLESWELL</ProductCode>
+
+                    <Name>Acne Safe Sample</Name>
+
+                    <expr1 type="xsd:double">1.0</expr1>
+
+                </records>
+
+                <records type="sf:sObject">
+
+                    <type>AggregateResult</type>
+
+                    <Id nil="true"/>
+
+                    <expr0 type="xsd:double">225.0</expr0>
+
+                    <ProductCode>883360513119M</ProductCode>
+
+                    <Name>Straight Leg Trousers</Name>
+
+                    <expr1 type="xsd:double">1.0</expr1>
+
+                </records>
+
+                <records type="sf:sObject">
+
+                    <type>AggregateResult</type>
+
+                    <Id nil="true"/>
+
+                    <expr0 type="xsd:double">33.6</expr0>
+
+                    <ProductCode>zone1-ground</ProductCode>
+
+                    <Name>Ground 4-10 business days</Name>
+
+                    <expr1 type="xsd:double">4.0</expr1>
+
+                </records>
+
+                <records type="sf:sObject">
+
+                    <type>AggregateResult</type>
+
+                    <Id nil="true"/>
+
+                    <expr0 type="xsd:double">10.5</expr0>
+
+                    <ProductCode>zone2-ground</ProductCode>
+
+                    <Name>Ground 4-10 business days</Name>
+
+                    <expr1 type="xsd:double">1.0</expr1>
+
+                </records>
+
+                <records type="sf:sObject">
+
+                    <type>AggregateResult</type>
+
+                    <Id nil="true"/>
+
+                    <expr0 type="xsd:double">19.84</expr0>
+
+                    <ProductCode>31</ProductCode>
+
+                    <Name>BiON Bacteriostat Cleanser</Name>
+
+                    <expr1 type="xsd:double">1.0</expr1>
+
+                </records>
+
+                <records type="sf:sObject">
+
+                    <type>AggregateResult</type>
+
+                    <Id nil="true"/>
+
+                    <expr0 type="xsd:double">39.9</expr0>
+
+                    <ProductCode>1581</ProductCode>
+
+                    <Name>Delgado Protocol Liv D-Tox</Name>
+
+                    <expr1 type="xsd:double">1.0</expr1>
+
+                </records>
+
+                <records type="sf:sObject">
+
+                    <type>AggregateResult</type>
+
+                    <Id nil="true"/>
+
+                    <expr0 type="xsd:double">31.18</expr0>
+
+                    <ProductCode>42</ProductCode>
+
+                    <Name>BiON Green Tea Clay Poultice</Name>
+
+                    <expr1 type="xsd:double">1.0</expr1>
+
+                </records>
+
+                <records type="sf:sObject">
+
+                    <type>AggregateResult</type>
+
+                    <Id nil="true"/>
+
+                    <expr0 type="xsd:double">27.3</expr0>
+
+                    <ProductCode>38</ProductCode>
+
+                    <Name>BiON Follicle Clearing Lotion</Name>
+
+                    <expr1 type="xsd:double">1.0</expr1>
+
+                </records>
+
+                <records type="sf:sObject">
+
+                    <type>AggregateResult</type>
+
+                    <Id nil="true"/>
+
+                    <expr0 type="xsd:double">98.5</expr0>
+
+                    <ProductCode>1509</ProductCode>
+
+                    <Name>Hale &amp; Hush Clear Future Toner</Name>
+
+                    <expr1 type="xsd:double">3.0</expr1>
+
+                </records>
+
+                <records type="sf:sObject">
+
+                    <type>AggregateResult</type>
+
+                    <Id nil="true"/>
+
+                    <expr0 type="xsd:double">42.0</expr0>
+
+                    <ProductCode>2640</ProductCode>
+
+                    <Name>Hale &amp; Hush Redness Relief Duo</Name>
+
+                    <expr1 type="xsd:double">1.0</expr1>
+
+                </records>
+
+                <records type="sf:sObject">
+
+                    <type>AggregateResult</type>
+
+                    <Id nil="true"/>
+
+                    <expr0 type="xsd:double">157.35</expr0>
+
+                    <ProductCode>1512</ProductCode>
+
+                    <Name>Hale &amp; Hush Soothe Essence Serum</Name>
+
+                    <expr1 type="xsd:double">3.0</expr1>
+
+                </records>
+
+                <records type="sf:sObject">
+
+                    <type>AggregateResult</type>
+
+                    <Id nil="true"/>
+
+                    <expr0 type="xsd:double">100.8</expr0>
+
+                    <ProductCode>1729</ProductCode>
+
+                    <Name>AnteAGE Home MicroNeedling System</Name>
+
+                    <expr1 type="xsd:double">1.0</expr1>
+
+                </records>
+
+                <records type="sf:sObject">
+
+                    <type>AggregateResult</type>
+
+                    <Id nil="true"/>
+
+                    <expr0 type="xsd:double">129.15</expr0>
+
+                    <ProductCode>1307</ProductCode>
+
+                    <Name>Art of Skin Care Base Coat  SPF 45</Name>
+
+                    <expr1 type="xsd:double">10.0</expr1>
+
+                </records>
+
+                <records type="sf:sObject">
+
+                    <type>AggregateResult</type>
+
+                    <Id nil="true"/>
+
+                    <expr0 type="xsd:double">31.5</expr0>
+
+                    <ProductCode>JL0002</ProductCode>
+
+                    <Name>Art of Skin Care Base Coat  SPF 45</Name>
+
+                    <expr1 type="xsd:double">2.0</expr1>
+
+                </records>
+
+                <records type="sf:sObject">
+
+                    <type>AggregateResult</type>
+
+                    <Id nil="true"/>
+
+                    <expr0 type="xsd:double">4640.47</expr0>
+
+                    <ProductCode>1324</ProductCode>
+
+                    <Name>Art of Skin Care Daily Zinc SPF 40</Name>
+
+                    <expr1 type="xsd:double">93.0</expr1>
+
+                </records>
+
+                <records type="sf:sObject">
+
+                    <type>AggregateResult</type>
+
+                    <Id nil="true"/>
+
+                    <expr0 type="xsd:double">24.15</expr0>
+
+                    <ProductCode>32</ProductCode>
+
+                    <Name>BiON Bio-Essence Nighttime Calcium</Name>
+
+                    <expr1 type="xsd:double">1.0</expr1>
+
+                </records>
+
+                <records type="sf:sObject">
+
+                    <type>AggregateResult</type>
+
+                    <Id nil="true"/>
+
+                    <expr0 type="xsd:double">109.2</expr0>
+
+                    <ProductCode>650</ProductCode>
+
+                    <Name>Le Mieux 24 Hour Age Defying Cream</Name>
+
+                    <expr1 type="xsd:double">2.0</expr1>
+
+                </records>
+
+                <records type="sf:sObject">
+
+                    <type>AggregateResult</type>
+
+                    <Id nil="true"/>
+
+                    <expr0 type="xsd:double">37.8</expr0>
+
+                    <ProductCode>2535</ProductCode>
+
+                    <Name>Michele Corley Blemish Be Gone Serum</Name>
+
+                    <expr1 type="xsd:double">1.0</expr1>
+
+                </records>
+
+                <records type="sf:sObject">
+
+                    <type>AggregateResult</type>
+
+                    <Id nil="true"/>
+
+                    <expr0 type="xsd:double">82.32</expr0>
+
+                    <ProductCode>279</ProductCode>
+
+                    <Name>Rhonda Allison Eye &amp; Lip Renew Serum</Name>
+
+                    <expr1 type="xsd:double">1.0</expr1>
+
+                </records>
+
+                <records type="sf:sObject">
+
+                    <type>AggregateResult</type>
+
+                    <Id nil="true"/>
+
+                    <expr0 type="xsd:double">134.82</expr0>
+
+                    <ProductCode>1515</ProductCode>
+
+                    <Name>Hale &amp; Hush Brilliant Eye &amp; Lip Serum</Name>
+
+                    <expr1 type="xsd:double">3.0</expr1>
+
+                </records>
+
+                <records type="sf:sObject">
+
+                    <type>AggregateResult</type>
+
+                    <Id nil="true"/>
+
+                    <expr0 type="xsd:double">92.4</expr0>
+
+                    <ProductCode>1306_2889</ProductCode>
+
+                    <Name>Art of Skin Care Prime &amp; Protect SPF 40</Name>
+
+                    <expr1 type="xsd:double">2.0</expr1>
+
+                </records>
+
+                <records type="sf:sObject">
+
+                    <type>AggregateResult</type>
+
+                    <Id nil="true"/>
+
+                    <expr0 type="xsd:double">231.0</expr0>
+
+                    <ProductCode>2489</ProductCode>
+
+                    <Name>Art of Skin Care Skin Perfection SPF 40</Name>
+
+                    <expr1 type="xsd:double">5.0</expr1>
+
+                </records>
+
+                <records type="sf:sObject">
+
+                    <type>AggregateResult</type>
+
+                    <Id nil="true"/>
+
+                    <expr0 type="xsd:double">42.0</expr0>
+
+                    <ProductCode>Hours</ProductCode>
+
+                    <Name>Hours</Name>
+
+                    <expr1 type="xsd:double">1.0</expr1>
+
+                </records>
+
+                <size>29</size>
+
+            </result>
+
+            <QueryResponse startPosition="1" maxResults="5">
+
+                <Item sparse="true">
+
+                    <Id>2</Id>
+
+                    <FullyQualifiedName>Hours</FullyQualifiedName>
+
+                </Item>
+
+                <Item sparse="true">
+
+                    <Id>1</Id>
+
+                    <FullyQualifiedName>Services</FullyQualifiedName>
+
+                </Item>
+
+                <Item sparse="true">
+
+                    <Id>19</Id>
+
+                    <FullyQualifiedName>Test item 1</FullyQualifiedName>
+
+                </Item>
+
+                <Item sparse="true">
+
+                    <Id>20</Id>
+
+                    <FullyQualifiedName>Test Item 2</FullyQualifiedName>
+
+                </Item>
+
+                <Item sparse="true">
+
+                    <Id>21</Id>
+
+                    <FullyQualifiedName>Test item 3</FullyQualifiedName>
+
+                </Item>
+
+            </QueryResponse>
+
+        </queryResponse>
