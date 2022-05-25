@@ -1,50 +1,43 @@
-<customers>
-    <customer>
-        <customer_number>502957</customer_number>
-        <name>Sarah S</name>
-        <sort_name>Sarah S</sort_name>
-        <address1/>
-        <address2/>
-        <city/>
-        <state/>
-        <zip/>
-        <phone>9052392</phone>
-        <loyality_id>7609052392</loyality_id>
-    </customer>
-    <customer>
-        <customer_number>502958</customer_number>
-        <name>amayn</name>
-        <sort_name>amayn</sort_name>
-        <address1/>
-        <address2/>
-        <city/>
-        <state/>
-        <zip/>
-        <phone>8902402</phone>
-        <loyality_id>3108902402</loyality_id>
-    </customer>
-    <customer>
-        <customer_number>502959</customer_number>
-        <name>Claire Mulkerrin</name>
-        <sort_name>Claire Mu</sort_name>
-        <address1/>
-        <address2/>
-        <city/>
-        <state/>
-        <zip/>
-        <phone>2284263</phone>
-        <loyality_id>6502284263</loyality_id>
-    </customer>
-    <customer>
-        <customer_number>502960</customer_number>
-        <name>Chris</name>
-        <sort_name>Chris</sort_name>
-        <address1/>
-        <address2/>
-        <city/>
-        <state/>
-        <zip/>
-        <phone>6191648</phone>
-        <loyality_id>3106191648</loyality_id>
-    </customer>
-</customers>
+
+    <items>
+    <item domain="QBO" sparse="false">
+        <Id>2103</Id>
+        <SyncToken>0</SyncToken>
+        <MetaData>
+            <CreateTime>2022-02-17T09:11:04-08:00</CreateTime>
+            <LastUpdatedTime>2022-02-17T09:11:04-08:00</LastUpdatedTime>
+        </MetaData>
+        <Name>BioFemme Discovery Kit BUNDLE</Name>
+        <sku>BFBUNDLE</sku>
+
+
+
+
+
+
+        <Active>true</Active>
+        <FullyQualifiedName>BioFemme Discovery Kit BUNDLE</FullyQualifiedName>
+        <Taxable>false</Taxable>
+        <UnitPrice>0</UnitPrice>
+        <Type>Group</Type>
+        <PurchaseCost>0</PurchaseCost>
+        <TrackQtyOnHand>false</TrackQtyOnHand>
+        <PrintGroupedItems>false</PrintGroupedItems>
+        <ItemGroupDetail>
+            <ItemGroupLine>
+                <ItemRef name="BioFemme Discovery Kit" type="Inventory">2008</ItemRef>
+                <Qty>1</Qty>
+            </ItemGroupLine>
+            <ItemGroupLine>
+                <ItemRef name="Nelly De Vuyst Vegan Leather Bag" type="Inventory">2102</ItemRef>
+                <Qty>1</Qty>
+            </ItemGroupLine>
+        </ItemGroupDetail>
+    </item>
+<item>
+    tet
+</item>
+
+
+
+</items>

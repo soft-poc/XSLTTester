@@ -1,0 +1,56 @@
+ <queryResponse xmlns="">
+            <result type="QueryResult">
+                <done>true</done>
+                <queryLocator nil="true" />
+                <records type="sf:sObject">
+                    <type>AggregateResult</type>
+                    <Id>3tt4x000000bnTcAAI</Id>
+                    <expr0 type="xsd:double">382.47</expr0>
+                    <expr1 type="xsd:double">8.0</expr1>
+                    <Id>3tt4x000000bnTcAAI</Id>
+                </records>
+                <records type="sf:sObject">
+                    <type>AggregateResult</type>
+                    <Id>3tt4x000000bnThAAI</Id>
+                    <expr0 type="xsd:double">96.13</expr0>
+                    <expr1 type="xsd:double">11.0</expr1>
+                    <Id>3tt4x000000bnThAAI</Id>
+                </records>
+                <records type="sf:sObject">
+                    <type>AggregateResult</type>
+                    <Id>3tt4x000000bnTmAAI</Id>
+                    <expr0 type="xsd:double">78.75</expr0>
+                    <expr1 type="xsd:double">4.0</expr1>
+                    <Id>3tt4x000000bnTmAAI</Id>
+                </records>
+                <records type="sf:sObject">
+                    <type>AggregateResult</type>
+                    <Id>3tt4x000000bnTwAAI</Id>
+                    <expr0 type="xsd:double">44.29</expr0>
+                    <expr1 type="xsd:double">3.0</expr1>
+                    <Id>3tt4x000000bnTwAAI</Id>
+                </records>
+                <records type="sf:sObject">
+                    <type>AggregateResult</type>
+                    <Id>3tt4x000000bnTSAAY</Id>
+                    <expr0 type="xsd:double">126.0</expr0>
+                    <expr1 type="xsd:double">4.0</expr1>
+                    <Id>3tt4x000000bnTSAAY</Id>
+                </records>
+                <records type="sf:sObject">
+                    <type>AggregateResult</type>
+                    <Id>3tt4x000000bnTXAAY</Id>
+                    <expr0 type="xsd:double">25.2</expr0>
+                    <expr1 type="xsd:double">2.0</expr1>
+                    <Id>3tt4x000000bnTXAAY</Id>
+                </records>
+                <records type="sf:sObject">
+                    <type>AggregateResult</type>
+                    <Id>3tt4x000000bnTrAAI</Id>
+                    <expr0 type="xsd:double">47.25</expr0>
+                    <expr1 type="xsd:double">4.0</expr1>
+                    <Id>3tt4x000000bnTrAAI</Id>
+                </records>
+                <size>7</size>
+            </result>
+        </queryResponse>

@@ -1,42 +1,34 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
-    <xsl:template match="/">
-        <customers>
-            <xsl:for-each select="/customers/customer">
-                <customer>
-                    <customer_number>
-                        <xsl:value-of select="customer_number"/>
-                    </customer_number>
-                    <name>
-                        <xsl:value-of select="name"/>
-                    </name>
-                    <sort_name>
-                        <xsl:value-of select="substring (name,0, 10 )"/>
-                    </sort_name>
-                    <address1>
-                        <xsl:value-of select="address1"/>
-                    </address1>
-                    <address2>
-                        <xsl:value-of select="address2"/>
-                    </address2>
-                    <city>
-                        <xsl:value-of select="city"/>
-                    </city>
-                    <state>
-                        <xsl:value-of select="state"/>
-                    </state>
-                    <zip>
-                        <xsl:value-of select="zip"/>
-                    </zip>
-                    <phone>
-                        <xsl:value-of select="phone"/>
-                    </phone>
-                    <loyality_id>
-                        <xsl:value-of select="loyality_id"/>
-                    </loyality_id>
-                </customer>
-            </xsl:for-each>
-        </customers>
-    </xsl:template>
-</xsl:stylesheet>
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<xsl:variable name="lookups" select="/queryResponse/items"/>
+<xsl:template match="/">
+    <xsl:variable name="RecordLength" select="count(queryResponse/result/records)"/>
 
+    <qbo>
+        { "Line": [<xsl:for-each select="queryResponse/result/records"><xsl:variable name="product_code" select="StockKeepingUnit"/><xsl:variable name="ItemType" select="$lookups/item[sku=$product_code]/type" />
+            {
+        "Description": "<xsl:value-of select="Name"/>",<xsl:choose><xsl:when test="$ItemType='Group'">
+         "DetailType": "GroupLineDetail",
+          "GroupLineDetail": {
+            "Quantity":<xsl:value-of select="expr1"/>,
+            "GroupItemRef": {
+            "name": "<xsl:value-of select="Name"/>",
+            "value": "<xsl:value-of select="$lookups/item[sku=$product_code]/id"/>"
+            }},</xsl:when><xsl:otherwise>
+            "DetailType": "SalesItemLineDetail",
+             "SalesItemLineDetail":{
+        "TaxCodeRef": {
+        "value": "NON"
+        },
+        "Qty":<xsl:value-of select="expr1"/>,
+        "ItemRef":{
+        "value": "<xsl:value-of select="$lookups/item[sku=$product_code]/id"/>",
+        "name":"<xsl:value-of select="Name"/>"
+        }
+        },</xsl:otherwise> </xsl:choose>
+        "LineNum":<xsl:value-of select="position()"/>,
+        "Amount":<xsl:value-of select="expr0"/>
+        }<xsl:if test="$RecordLength!=position()">,</xsl:if></xsl:for-each>
+        ]}
+    </qbo>
+</xsl:template>
+</xsl:stylesheet>

@@ -1,0 +1,166 @@
+
+    <queryResponse >
+        <result type="QueryResult">
+            <done>true</done>
+            <queryLocator nil="true" />
+            <records xmlns:sf="urn:sobject.partner.soap.sforce.com" type="sObject">
+                <type>Invoice</type>
+                <Id>3tt5e000000TQVTAA4</Id>
+                <Id>3tt5e000000TQVTAA4</Id>
+                <DocumentNumber>DOC-000000058</DocumentNumber>
+                <ReferenceEntity type="sObject">
+                    <type>Name</type>
+                    <Id nil="true" />
+                    <Name>00004726</Name>
+                </ReferenceEntity>
+                <ReferenceEntityId>1Os5e000000caZZCAY</ReferenceEntityId>
+                <BillingAccount type="sObject">
+                    <type>Account</type>
+                    <Id nil="true" />
+                    <Name>Jerry Ong</Name>
+                    <PersonEmail>jerryong89@hotmail.com</PersonEmail>
+                    <BillingAddress type="address">
+                        <latitude nil="true" />
+                        <longitude nil="true" />
+                        <city>El Monte</city>
+                        <country>US</country>
+                        <countryCode nil="true" />
+                        <geocodeAccuracy nil="true" />
+                        <postalCode>91732</postalCode>
+                        <state>CA</state>
+                        <stateCode nil="true" />
+                        <street>4148 Cedar Ave Apt F</street>
+                    </BillingAddress>
+                    <Phone>3235275268</Phone>
+                </BillingAccount>
+                <TotalTaxAmount>3.72</TotalTaxAmount>
+                <TotalAmountWithTax>86.2</TotalAmountWithTax>
+                <Order_Payment_Summary__r type="sObject">
+                    <type>OrderPaymentSummary</type>
+                    <Id nil="true" />
+                    <AuthorizationAmount>86.2</AuthorizationAmount>
+                    <CapturedAmount>0.0</CapturedAmount>
+                    <Method>Visa - 1111</Method>
+                    <Type>Visa</Type>
+                </Order_Payment_Summary__r>
+                <CreatedDate>2022-05-12T18:25:27.000Z</CreatedDate>
+                <InvoiceLines type="QueryResult">
+                    <done>true</done>
+                    <queryLocator nil="true" />
+                    <records type="sObject">
+                        <type>InvoiceLine</type>
+                        <Id>5TV5e000000TQe8GAG</Id>
+                        <Id>5TV5e000000TQe8GAG</Id>
+                        <Name>00000001</Name>
+                        <Product2 type="sObject">
+                            <type>Product2</type>
+                            <Id nil="true" />
+                            <ProductCode>320431</ProductCode>
+                            <Family nil="true" />
+                        </Product2>
+                        <Quantity>1.0</Quantity>
+                        <UnitPrice>74.49</UnitPrice>
+                        <LineAmount>74.49</LineAmount>
+                        <ReferenceEntityItemTypeCode>Product</ReferenceEntityItemTypeCode>
+                        <TaxCode nil="true" />
+                        <Type>Charge</Type>
+                        <TaxAmount nil="true" />
+                        <ReferenceEntityItemType>Order Product</ReferenceEntityItemType>
+                        <AdjustmentAmountWithTax>0.0</AdjustmentAmountWithTax>
+                        <AdjustmentAmount nil="true" />
+                        <AdjustmentTaxAmount>0.0</AdjustmentTaxAmount>
+                    </records>
+                    <records type="sObject">
+                        <type>InvoiceLine</type>
+                        <Id>5TV5e000000TQe9GAG</Id>
+                        <Id>5TV5e000000TQe9GAG</Id>
+                        <Name>FOIT-0663</Name>
+                        <Product2 type="sObject">
+                            <type>Product2</type>
+                            <Id nil="true" />
+                            <ProductCode>320431</ProductCode>
+                            <Family nil="true" />
+                        </Product2>
+                        <Quantity nil="true" />
+                        <UnitPrice nil="true" />
+                        <LineAmount>3.72</LineAmount>
+                        <ReferenceEntityItemTypeCode nil="true" />
+                        <TaxCode>Estimated</TaxCode>
+                        <Type>Tax</Type>
+                        <TaxAmount>3.72</TaxAmount>
+                        <ReferenceEntityItemType nil="true" />
+                        <AdjustmentAmountWithTax>0.0</AdjustmentAmountWithTax>
+                        <AdjustmentAmount nil="true" />
+                        <AdjustmentTaxAmount>0.0</AdjustmentTaxAmount>
+                    </records>
+                    <records type="sObject">
+                        <type>InvoiceLine</type>
+                        <Id>5TV5e000000TQeAGAW</Id>
+                        <Id>5TV5e000000TQeAGAW</Id>
+                        <Name>00000002</Name>
+                        <Product2 type="sObject">
+                            <type>Product2</type>
+                            <Id nil="true" />
+                            <ProductCode>002</ProductCode>
+                            <Family nil="true" />
+                        </Product2>
+                        <Quantity>1.0</Quantity>
+                        <UnitPrice>7.99</UnitPrice>
+                        <LineAmount>7.99</LineAmount>
+                        <ReferenceEntityItemTypeCode>Charge</ReferenceEntityItemTypeCode>
+                        <TaxCode nil="true" />
+                        <Type>Charge</Type>
+                        <TaxAmount nil="true" />
+                        <ReferenceEntityItemType>Delivery Charge</ReferenceEntityItemType>
+                        <AdjustmentAmountWithTax>0.0</AdjustmentAmountWithTax>
+                        <AdjustmentAmount nil="true" />
+                        <AdjustmentTaxAmount>0.0</AdjustmentTaxAmount>
+                    </records>
+                    <records type="sObject">
+                        <type>InvoiceLine</type>
+                        <Id>5TV5e000000TQeBGAW</Id>
+                        <Id>5TV5e000000TQeBGAW</Id>
+                        <Name>FOIT-0664</Name>
+                        <Product2 type="sObject">
+                            <type>Product2</type>
+                            <Id nil="true" />
+                            <ProductCode>002</ProductCode>
+                            <Family nil="true" />
+                        </Product2>
+                        <Quantity nil="true" />
+                        <UnitPrice nil="true" />
+                        <LineAmount>0.0</LineAmount>
+                        <ReferenceEntityItemTypeCode nil="true" />
+                        <TaxCode>Estimated</TaxCode>
+                        <Type>Tax</Type>
+                        <TaxAmount>0.0</TaxAmount>
+                        <ReferenceEntityItemType nil="true" />
+                        <AdjustmentAmountWithTax>0.0</AdjustmentAmountWithTax>
+                        <AdjustmentAmount nil="true" />
+                        <AdjustmentTaxAmount>0.0</AdjustmentTaxAmount>
+                    </records>
+                    <size>4</size>
+                </InvoiceLines>
+                <FulfillmentOrders type="QueryResult">
+                    <done>true</done>
+                    <queryLocator nil="true" />
+                    <records type="sObject">
+                        <type>FulfillmentOrder</type>
+                        <Id nil="true" />
+                        <FulfilledFromLocation type="sObject">
+                            <type>Location</type>
+                            <Id nil="true" />
+                            <ExternalReference>centi-10</ExternalReference>
+                        </FulfilledFromLocation>
+                        <DeliveryMethod type="sObject">
+                            <type>OrderDeliveryMethod</type>
+                            <Id nil="true" />
+                            <Name>Same Day Delivery</Name>
+                        </DeliveryMethod>
+                    </records>
+                    <size>1</size>
+                </FulfillmentOrders>
+            </records>
+            <size>1</size>
+        </result>
+    </queryResponse>
