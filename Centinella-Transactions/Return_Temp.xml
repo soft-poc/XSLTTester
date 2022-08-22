@@ -1,0 +1,497 @@
+<SalesCredit>
+   <result type="QueryResult">
+      <done>true</done>
+      <queryLocator nil="true"/>
+      <records type="sf:sObject">
+         <type>CreditMemo</type>
+         <Id>50g5e000000TQMQAA4</Id>
+         <Id>50g5e000000TQMQAA4</Id>
+         <OwnerId>0055e000005xTKlAAM</OwnerId>
+         <IsDeleted>false</IsDeleted>
+         <DocumentNumber>DOC-0000000008</DocumentNumber>
+         <CreatedDate>2022-07-13T10:15:48.000Z</CreatedDate>
+         <CreatedById>0055e000005xTKlAAM</CreatedById>
+         <LastModifiedDate>2022-07-13T10:15:50.000Z</LastModifiedDate>
+         <LastModifiedById>0055e000005hwmTAAQ</LastModifiedById>
+         <SystemModstamp>2022-07-13T10:15:50.000Z</SystemModstamp>
+         <LastViewedDate>2022-07-13T19:59:29.000Z</LastViewedDate>
+         <LastReferencedDate>2022-07-13T19:59:29.000Z</LastReferencedDate>
+         <BillingAccountId>0015e00000s3LN9AAM</BillingAccountId>
+         <ReferenceEntityId>1Os5e000000cbynCAA</ReferenceEntityId>
+         <CreditMemoNumber nil="true"/>
+         <TotalAmount>4.08</TotalAmount>
+         <TotalAmountWithTax>4.28</TotalAmountWithTax>
+         <TotalChargeAmount>2.08</TotalChargeAmount>
+         <TotalAdjustmentAmount>2.0</TotalAdjustmentAmount>
+         <TotalTaxAmount>0.2</TotalTaxAmount>
+         <CreditDate>2022-07-13</CreditDate>
+         <Description nil="true"/>
+         <Status>Posted</Status>
+         <BillToContactId nil="true"/>
+         <Balance>0.0</Balance>
+         <TaxLocaleType>Net</TaxLocaleType>
+         <TotalChargeTaxAmount>0.2</TotalChargeTaxAmount>
+         <TotalChargeAmountWithTax>2.28</TotalChargeAmountWithTax>
+         <TotalAdjustmentTaxAmount>0.0</TotalAdjustmentTaxAmount>
+         <TotalAdjustmentAmountWithTax>2.0</TotalAdjustmentAmountWithTax>
+      </records>
+      <size>1</size>
+   </result>
+   <result type="QueryResult">
+      <done>true</done>
+      <queryLocator nil="true"/>
+      <records type="sf:sObject">
+         <type>CreditMemoLine</type>
+         <Id>9yx5e000000TQMSAA4</Id>
+         <Id>9yx5e000000TQMSAA4</Id>
+         <IsDeleted>false</IsDeleted>
+         <Name>13Oz Chicken Formula Wet Dog Food</Name>
+         <CreatedDate>2022-07-13T10:15:48.000Z</CreatedDate>
+         <CreatedById>0055e000005xTKlAAM</CreatedById>
+         <LastModifiedDate>2022-07-13T10:15:48.000Z</LastModifiedDate>
+         <LastModifiedById>0055e000005xTKlAAM</LastModifiedById>
+         <SystemModstamp>2022-07-13T10:15:48.000Z</SystemModstamp>
+         <CreditMemoId>50g5e000000TQMQAA4</CreditMemoId>
+         <ReferenceEntityItemId>10u5e000000cbuqAAA</ReferenceEntityItemId>
+         <StartDate nil="true"/>
+         <EndDate nil="true"/>
+         <TaxEffectiveDate nil="true"/>
+         <Type>Charge</Type>
+         <TaxCode nil="true"/>
+         <TaxRate nil="true"/>
+         <Status>Posted</Status>
+         <ChargeAmount>2.08</ChargeAmount>
+         <TaxAmount nil="true"/>
+         <AdjustmentAmount nil="true"/>
+         <LineAmount>2.08</LineAmount>
+         <Description nil="true"/>
+         <ReferenceEntityItemTypeCode>Product</ReferenceEntityItemTypeCode>
+         <ReferenceEntityItemType>Order Product</ReferenceEntityItemType>
+         <RelatedLineId nil="true"/>
+         <Product2Id>01t5e000004M5YDAA0</Product2Id>
+         <TaxName nil="true"/>
+         <GrossUnitPrice nil="true"/>
+         <ChargeTaxAmount>0.2</ChargeTaxAmount>
+         <ChargeAmountWithTax>2.28</ChargeAmountWithTax>
+         <AdjustmentTaxAmount>0.0</AdjustmentTaxAmount>
+         <AdjustmentAmountWithTax>0.0</AdjustmentAmountWithTax>
+      </records>
+      <records type="sf:sObject">
+         <type>CreditMemoLine</type>
+         <Id>9yx5e000000TQMTAA4</Id>
+         <Id>9yx5e000000TQMTAA4</Id>
+         <IsDeleted>false</IsDeleted>
+         <Name>304119 - Tax</Name>
+         <CreatedDate>2022-07-13T10:15:48.000Z</CreatedDate>
+         <CreatedById>0055e000005xTKlAAM</CreatedById>
+         <LastModifiedDate>2022-07-13T10:15:48.000Z</LastModifiedDate>
+         <LastModifiedById>0055e000005xTKlAAM</LastModifiedById>
+         <SystemModstamp>2022-07-13T10:15:48.000Z</SystemModstamp>
+         <CreditMemoId>50g5e000000TQMQAA4</CreditMemoId>
+         <ReferenceEntityItemId nil="true"/>
+         <StartDate nil="true"/>
+         <EndDate nil="true"/>
+         <TaxEffectiveDate>2022-07-13</TaxEffectiveDate>
+         <Type>Tax</Type>
+         <TaxCode nil="true"/>
+         <TaxRate nil="true"/>
+         <Status>Posted</Status>
+         <ChargeAmount nil="true"/>
+         <TaxAmount>0.2</TaxAmount>
+         <AdjustmentAmount nil="true"/>
+         <LineAmount>0.2</LineAmount>
+         <Description nil="true"/>
+         <ReferenceEntityItemTypeCode nil="true"/>
+         <ReferenceEntityItemType nil="true"/>
+         <RelatedLineId>9yx5e000000TQMSAA4</RelatedLineId>
+         <Product2Id nil="true"/>
+         <TaxName>304119 - Tax</TaxName>
+         <GrossUnitPrice nil="true"/>
+         <ChargeTaxAmount>0.0</ChargeTaxAmount>
+         <ChargeAmountWithTax>0.0</ChargeAmountWithTax>
+         <AdjustmentTaxAmount>0.0</AdjustmentTaxAmount>
+         <AdjustmentAmountWithTax>0.0</AdjustmentAmountWithTax>
+      </records>
+      <records type="sf:sObject">
+         <type>CreditMemoLine</type>
+         <Id>9yx5e000000TQMUAA4</Id>
+         <Id>9yx5e000000TQMUAA4</Id>
+         <IsDeleted>false</IsDeleted>
+         <Name>Shipping</Name>
+         <CreatedDate>2022-07-13T10:15:48.000Z</CreatedDate>
+         <CreatedById>0055e000005xTKlAAM</CreatedById>
+         <LastModifiedDate>2022-07-13T10:15:48.000Z</LastModifiedDate>
+         <LastModifiedById>0055e000005xTKlAAM</LastModifiedById>
+         <SystemModstamp>2022-07-13T10:15:48.000Z</SystemModstamp>
+         <CreditMemoId>50g5e000000TQMQAA4</CreditMemoId>
+         <ReferenceEntityItemId>10u5e000000cbupAAA</ReferenceEntityItemId>
+         <StartDate nil="true"/>
+         <EndDate nil="true"/>
+         <TaxEffectiveDate nil="true"/>
+         <Type>Charge</Type>
+         <TaxCode nil="true"/>
+         <TaxRate nil="true"/>
+         <Status>Posted</Status>
+         <ChargeAmount>0.0</ChargeAmount>
+         <TaxAmount nil="true"/>
+         <AdjustmentAmount nil="true"/>
+         <LineAmount>0.0</LineAmount>
+         <Description nil="true"/>
+         <ReferenceEntityItemTypeCode>Charge</ReferenceEntityItemTypeCode>
+         <ReferenceEntityItemType>Delivery Charge</ReferenceEntityItemType>
+         <RelatedLineId nil="true"/>
+         <Product2Id>01t5e000003jvAJAAY</Product2Id>
+         <TaxName nil="true"/>
+         <GrossUnitPrice nil="true"/>
+         <ChargeTaxAmount>0.0</ChargeTaxAmount>
+         <ChargeAmountWithTax>0.0</ChargeAmountWithTax>
+         <AdjustmentTaxAmount>0.0</AdjustmentTaxAmount>
+         <AdjustmentAmountWithTax>0.0</AdjustmentAmountWithTax>
+      </records>
+      <records type="sf:sObject">
+         <type>CreditMemoLine</type>
+         <Id>9yx5e000000TQMVAA4</Id>
+         <Id>9yx5e000000TQMVAA4</Id>
+         <IsDeleted>false</IsDeleted>
+         <Name>Prorated Shipping Adjustment</Name>
+         <CreatedDate>2022-07-13T10:15:48.000Z</CreatedDate>
+         <CreatedById>0055e000005xTKlAAM</CreatedById>
+         <LastModifiedDate>2022-07-13T10:15:48.000Z</LastModifiedDate>
+         <LastModifiedById>0055e000005xTKlAAM</LastModifiedById>
+         <SystemModstamp>2022-07-13T10:15:48.000Z</SystemModstamp>
+         <CreditMemoId>50g5e000000TQMQAA4</CreditMemoId>
+         <ReferenceEntityItemId nil="true"/>
+         <StartDate nil="true"/>
+         <EndDate nil="true"/>
+         <TaxEffectiveDate nil="true"/>
+         <Type>Adjustment</Type>
+         <TaxCode nil="true"/>
+         <TaxRate nil="true"/>
+         <Status>Posted</Status>
+         <ChargeAmount nil="true"/>
+         <TaxAmount nil="true"/>
+         <AdjustmentAmount>2.0</AdjustmentAmount>
+         <LineAmount>2.0</LineAmount>
+         <Description nil="true"/>
+         <ReferenceEntityItemTypeCode nil="true"/>
+         <ReferenceEntityItemType nil="true"/>
+         <RelatedLineId>9yx5e000000TQMUAA4</RelatedLineId>
+         <Product2Id nil="true"/>
+         <TaxName nil="true"/>
+         <GrossUnitPrice nil="true"/>
+         <ChargeTaxAmount>0.0</ChargeTaxAmount>
+         <ChargeAmountWithTax>0.0</ChargeAmountWithTax>
+         <AdjustmentTaxAmount>0.0</AdjustmentTaxAmount>
+         <AdjustmentAmountWithTax>2.0</AdjustmentAmountWithTax>
+      </records>
+      <records type="sf:sObject">
+         <type>CreditMemoLine</type>
+         <Id>9yx5e000000TQMWAA4</Id>
+         <Id>9yx5e000000TQMWAA4</Id>
+         <IsDeleted>false</IsDeleted>
+         <Name>Prorated Shipping Adjustment Tax</Name>
+         <CreatedDate>2022-07-13T10:15:48.000Z</CreatedDate>
+         <CreatedById>0055e000005xTKlAAM</CreatedById>
+         <LastModifiedDate>2022-07-13T10:15:48.000Z</LastModifiedDate>
+         <LastModifiedById>0055e000005xTKlAAM</LastModifiedById>
+         <SystemModstamp>2022-07-13T10:15:48.000Z</SystemModstamp>
+         <CreditMemoId>50g5e000000TQMQAA4</CreditMemoId>
+         <ReferenceEntityItemId nil="true"/>
+         <StartDate nil="true"/>
+         <EndDate nil="true"/>
+         <TaxEffectiveDate>2022-07-13</TaxEffectiveDate>
+         <Type>Tax</Type>
+         <TaxCode nil="true"/>
+         <TaxRate nil="true"/>
+         <Status>Posted</Status>
+         <ChargeAmount nil="true"/>
+         <TaxAmount>0.0</TaxAmount>
+         <AdjustmentAmount nil="true"/>
+         <LineAmount>0.0</LineAmount>
+         <Description nil="true"/>
+         <ReferenceEntityItemTypeCode nil="true"/>
+         <ReferenceEntityItemType nil="true"/>
+         <RelatedLineId>9yx5e000000TQMVAA4</RelatedLineId>
+         <Product2Id nil="true"/>
+         <TaxName>Prorated Shipping Adjustment Tax</TaxName>
+         <GrossUnitPrice nil="true"/>
+         <ChargeTaxAmount>0.0</ChargeTaxAmount>
+         <ChargeAmountWithTax>0.0</ChargeAmountWithTax>
+         <AdjustmentTaxAmount>0.0</AdjustmentTaxAmount>
+         <AdjustmentAmountWithTax>0.0</AdjustmentAmountWithTax>
+      </records>
+      <size>5</size>
+   </result>
+   <result type="QueryResult">
+      <done>true</done>
+      <queryLocator nil="true"/>
+      <records type="sf:sObject">
+         <type>Product2</type>
+         <Id>01t5e000003jvAJAAY</Id>
+         <Id>01t5e000003jvAJAAY</Id>
+         <Name>Ground</Name>
+         <ProductCode nil="true"/>
+         <Description nil="true"/>
+         <IsActive>true</IsActive>
+         <CreatedDate>2021-12-08T16:21:10.000Z</CreatedDate>
+         <CreatedById>0055e000005xsmhAAA</CreatedById>
+         <LastModifiedDate>2022-02-01T07:24:05.000Z</LastModifiedDate>
+         <LastModifiedById>0055e000005xsmhAAA</LastModifiedById>
+         <SystemModstamp>2022-02-01T07:24:05.000Z</SystemModstamp>
+         <Family nil="true"/>
+         <ExternalDataSourceId nil="true"/>
+         <ExternalId nil="true"/>
+         <DisplayUrl nil="true"/>
+         <QuantityUnitOfMeasure nil="true"/>
+         <IsDeleted>false</IsDeleted>
+         <IsArchived>false</IsArchived>
+         <LastViewedDate>2022-07-08T12:49:34.000Z</LastViewedDate>
+         <LastReferencedDate>2022-07-08T12:49:34.000Z</LastReferencedDate>
+         <StockKeepingUnit nil="true"/>
+      </records>
+      <records type="sf:sObject">
+         <type>Product2</type>
+         <Id>01t5e000004M5YDAA0</Id>
+         <Id>01t5e000004M5YDAA0</Id>
+         <Name>13Oz Chicken Formula Wet Dog Food</Name>
+         <ProductCode>304119</ProductCode>
+         <Description>13Oz Chicken Formula Wet Dog Food</Description>
+         <IsActive>true</IsActive>
+         <CreatedDate>2022-05-20T12:31:53.000Z</CreatedDate>
+         <CreatedById>0055e000005WJplAAG</CreatedById>
+         <LastModifiedDate>2022-05-20T12:31:53.000Z</LastModifiedDate>
+         <LastModifiedById>0055e000005WJplAAG</LastModifiedById>
+         <SystemModstamp>2022-05-20T12:31:53.000Z</SystemModstamp>
+         <Family nil="true"/>
+         <ExternalDataSourceId nil="true"/>
+         <ExternalId nil="true"/>
+         <DisplayUrl nil="true"/>
+         <QuantityUnitOfMeasure nil="true"/>
+         <IsDeleted>false</IsDeleted>
+         <IsArchived>false</IsArchived>
+         <LastViewedDate nil="true"/>
+         <LastReferencedDate nil="true"/>
+         <StockKeepingUnit>304119</StockKeepingUnit>
+      </records>
+      <size>2</size>
+   </result>
+   <queryResponse>
+      <result type="QueryResult">
+         <done>true</done>
+         <queryLocator nil="true"/>
+         <records type="sf:sObject">
+            <type>Invoice</type>
+            <Id>3tt5e000000TQimAAG</Id>
+            <Id>3tt5e000000TQimAAG</Id>
+            <DocumentNumber>DOC-000000239</DocumentNumber>
+            <Invoice_covers_total_amount__c>false</Invoice_covers_total_amount__c>
+            <ReferenceEntity type="sf:sObject">
+               <type>Name</type>
+               <Id nil="true"/>
+               <Name>00100220</Name>
+            </ReferenceEntity>
+            <ReferenceEntityId>1Os5e000000cbynCAA</ReferenceEntityId>
+            <BillingAccount type="sf:sObject">
+               <type>Account</type>
+               <Id nil="true"/>
+               <Name>sandip mewada</Name>
+               <PersonEmail>sandip@omnichannel.com</PersonEmail>
+               <BillingAddress type="address">
+                  <latitude nil="true"/>
+                  <longitude nil="true"/>
+                  <city>SACRAMENTO</city>
+                  <country>US</country>
+                  <countryCode nil="true"/>
+                  <geocodeAccuracy nil="true"/>
+                  <postalCode>95820-3062</postalCode>
+                  <state>CA</state>
+                  <stateCode nil="true"/>
+                  <street>5310 SAN FRANCISCO BLVD # 3</street>
+               </BillingAddress>
+               <Phone>8474848484</Phone>
+               <Eagle_Customer_Number__c nil="true"/>
+               <epicorCustomerNumber__c nil="true"/>
+               <loyaltyID__c nil="true"/>
+            </BillingAccount>
+            <TotalTaxAmount>0.39</TotalTaxAmount>
+            <TotalAmountWithTax>10.54</TotalAmountWithTax>
+            <Order_Payment_Summary__r type="sf:sObject">
+               <type>OrderPaymentSummary</type>
+               <Id nil="true"/>
+               <AuthorizationAmount>0.0</AuthorizationAmount>
+               <PaymentMethodId>03O5e000000XfB5EAK</PaymentMethodId>
+               <CapturedAmount>12.82</CapturedAmount>
+               <Type>Visa</Type>
+               <Method>Visa - 1111</Method>
+            </Order_Payment_Summary__r>
+            <CreatedDate>2022-07-13T10:12:03.000Z</CreatedDate>
+            <InvoiceLines type="QueryResult">
+               <done>true</done>
+               <queryLocator nil="true"/>
+               <records type="sf:sObject">
+                  <type>InvoiceLine</type>
+                  <Id>5TV5e000000TQu9GAG</Id>
+                  <Id>5TV5e000000TQu9GAG</Id>
+                  <Name>00000001</Name>
+                  <Product2 type="sf:sObject">
+                     <type>Product2</type>
+                     <Id nil="true"/>
+                     <ProductCode nil="true"/>
+                     <Family nil="true"/>
+                  </Product2>
+                  <Quantity>1.0</Quantity>
+                  <UnitPrice>5.99</UnitPrice>
+                  <LineAmount>5.99</LineAmount>
+                  <ReferenceEntityItemTypeCode>Charge</ReferenceEntityItemTypeCode>
+                  <TaxCode nil="true"/>
+                  <Type>Charge</Type>
+                  <TaxAmount nil="true"/>
+                  <ReferenceEntityItemType>Delivery Charge</ReferenceEntityItemType>
+                  <AdjustmentAmountWithTax>0.0</AdjustmentAmountWithTax>
+                  <AdjustmentAmount nil="true"/>
+                  <AdjustmentTaxAmount>0.0</AdjustmentTaxAmount>
+                  <Gift_Certificate_Number__c nil="true"/>
+               </records>
+               <records type="sf:sObject">
+                  <type>InvoiceLine</type>
+                  <Id>5TV5e000000TQuAGAW</Id>
+                  <Id>5TV5e000000TQuAGAW</Id>
+                  <Name>FOIT-2242</Name>
+                  <Product2 type="sf:sObject">
+                     <type>Product2</type>
+                     <Id nil="true"/>
+                     <ProductCode nil="true"/>
+                     <Family nil="true"/>
+                  </Product2>
+                  <Quantity nil="true"/>
+                  <UnitPrice nil="true"/>
+                  <LineAmount>0.0</LineAmount>
+                  <ReferenceEntityItemTypeCode nil="true"/>
+                  <TaxCode>Estimated</TaxCode>
+                  <Type>Tax</Type>
+                  <TaxAmount>0.0</TaxAmount>
+                  <ReferenceEntityItemType nil="true"/>
+                  <AdjustmentAmountWithTax>0.0</AdjustmentAmountWithTax>
+                  <AdjustmentAmount nil="true"/>
+                  <AdjustmentTaxAmount>0.0</AdjustmentTaxAmount>
+                  <Gift_Certificate_Number__c nil="true"/>
+               </records>
+               <records type="sf:sObject">
+                  <type>InvoiceLine</type>
+                  <Id>5TV5e000000TQuBGAW</Id>
+                  <Id>5TV5e000000TQuBGAW</Id>
+                  <Name>00000002</Name>
+                  <Product2 type="sf:sObject">
+                     <type>Product2</type>
+                     <Id nil="true"/>
+                     <ProductCode>304119</ProductCode>
+                     <Family nil="true"/>
+                  </Product2>
+                  <Quantity>2.0</Quantity>
+                  <UnitPrice>2.08</UnitPrice>
+                  <LineAmount>4.16</LineAmount>
+                  <ReferenceEntityItemTypeCode>Product</ReferenceEntityItemTypeCode>
+                  <TaxCode nil="true"/>
+                  <Type>Charge</Type>
+                  <TaxAmount nil="true"/>
+                  <ReferenceEntityItemType>Order Product</ReferenceEntityItemType>
+                  <AdjustmentAmountWithTax>0.0</AdjustmentAmountWithTax>
+                  <AdjustmentAmount nil="true"/>
+                  <AdjustmentTaxAmount>0.0</AdjustmentTaxAmount>
+                  <Gift_Certificate_Number__c nil="true"/>
+               </records>
+               <records type="sf:sObject">
+                  <type>InvoiceLine</type>
+                  <Id>5TV5e000000TQuCGAW</Id>
+                  <Id>5TV5e000000TQuCGAW</Id>
+                  <Name>FOIT-2243</Name>
+                  <Product2 type="sf:sObject">
+                     <type>Product2</type>
+                     <Id nil="true"/>
+                     <ProductCode>304119</ProductCode>
+                     <Family nil="true"/>
+                  </Product2>
+                  <Quantity nil="true"/>
+                  <UnitPrice nil="true"/>
+                  <LineAmount>0.39</LineAmount>
+                  <ReferenceEntityItemTypeCode nil="true"/>
+                  <TaxCode>Estimated</TaxCode>
+                  <Type>Tax</Type>
+                  <TaxAmount>0.39</TaxAmount>
+                  <ReferenceEntityItemType nil="true"/>
+                  <AdjustmentAmountWithTax>0.0</AdjustmentAmountWithTax>
+                  <AdjustmentAmount nil="true"/>
+                  <AdjustmentTaxAmount>0.0</AdjustmentTaxAmount>
+                  <Gift_Certificate_Number__c nil="true"/>
+               </records>
+               <size>4</size>
+            </InvoiceLines>
+            <FulfillmentOrders type="QueryResult">
+               <done>true</done>
+               <queryLocator nil="true"/>
+               <records type="sf:sObject">
+                  <type>FulfillmentOrder</type>
+                  <Id nil="true"/>
+                  <FulfilledFromLocation type="sf:sObject">
+                     <type>Location</type>
+                     <Id nil="true"/>
+                     <ExternalReference>centi-06</ExternalReference>
+                  </FulfilledFromLocation>
+                  <DeliveryMethod type="sf:sObject">
+                     <type>OrderDeliveryMethod</type>
+                     <Id nil="true"/>
+                     <Name>Ground</Name>
+                  </DeliveryMethod>
+               </records>
+               <size>1</size>
+            </FulfillmentOrders>
+         </records>
+         <size>1</size>
+      </result>
+      <paymentsummary>
+         <records type="sf:sObject">
+            <type>OrderPaymentSummary</type>
+            <Id>0bM5e000000YGCHEA4</Id>
+            <Id>0bM5e000000YGCHEA4</Id>
+            <OrderSummaryId>1Os5e000000cbynCAA</OrderSummaryId>
+            <CapturedAmount>12.82</CapturedAmount>
+            <AuthorizationAmount>0.0</AuthorizationAmount>
+            <FullName>sam</FullName>
+            <Method>Visa - 1111</Method>
+            <PaymentMethodId>03O5e000000XfB5EAK</PaymentMethodId>
+            <Gift_Certificate_Number__c nil="true"/>
+            <Type>Visa</Type>
+            <Fulfillment_Order__c nil="true"/>
+         </records>
+      </paymentsummary>
+      <cards>
+         <records type="sf:sObject">
+            <type>CardPaymentMethod</type>
+            <Id>03O5e000000XfB5EAK</Id>
+            <Id>03O5e000000XfB5EAK</Id>
+            <Gift_Certificate_Number__c nil="true"/>
+            <CardType>Visa</CardType>
+         </records>
+      </cards>
+      <shipments>
+         <records type="sf:sObject">
+            <type>Shipment</type>
+            <Id>0OB5e000000YJDyGAO</Id>
+            <Id>0OB5e000000YJDyGAO</Id>
+            <ShipToName>sandip mewada</ShipToName>
+            <ShipToAddress type="address">
+               <latitude nil="true"/>
+               <longitude nil="true"/>
+               <city>SACRAMENTO</city>
+               <country>US</country>
+               <countryCode nil="true"/>
+               <geocodeAccuracy nil="true"/>
+               <postalCode>90503</postalCode>
+               <state>CA</state>
+               <stateCode nil="true"/>
+               <street>5310 SAN FRANCISCO BLVD # 3</street>
+            </ShipToAddress>
+         </records>
+      </shipments>
+   </queryResponse>
+</SalesCredit>

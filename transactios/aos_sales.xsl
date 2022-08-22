@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
-    <xsl:variable name="lookups" select="/queryResponse/QueryResponse"/>
-    <xsl:template match="/">
-        <xsl:element name="MissingSKU">
-        <xsl:for-each select="queryResponse/result/records">
-            <xsl:variable name="product_code" select="Name"/>
-            <xsl:if test="not($lookups/Item[FullyQualifiedName=$product_code]/FullyQualifiedName)">
-                <xsl:element name="Sku">
-                                            <xsl:value-of select="$product_code"/>
-            </xsl:element>
-            </xsl:if>
-
-        </xsl:for-each>
-        </xsl:element>
-    </xsl:template>
-</xsl:stylesheet>
+ <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+        <xsl:variable name="lookups" select="/queryResponse/items"/>
+        <xsl:template match="/">
+            <xsl:variable name="apos"><xsl:text>'</xsl:text></xsl:variable>
+            <xsl:variable name="double_quote"><xsl:text>"</xsl:text></xsl:variable>
+            <xsl:variable name="RecordLength" select="count(queryResponse/result/records)"/>
+            <qbo>        { "Line": [<xsl:for-each select="queryResponse/result/records">
+                    <xsl:variable name="product_code" select="StockKeepingUnit"/>
+                    <xsl:variable name="ItemType" select="$lookups/item[sku=$product_code]/type"/>            {        "Description": "<xsl:value-of select="translate(Name,$double_quote, $apos)"/>",<xsl:choose>
+                        <xsl:when test="$ItemType='Group'">         "DetailType": "GroupLineDetail",          "GroupLineDetail": {            "Quantity":<xsl:value-of select="expr1"/>,            "GroupItemRef": {            "name": "<xsl:value-of select="Name"/>",            "value": "<xsl:value-of select="$lookups/item[sku=$product_code]/id"/>"            }},</xsl:when>
+                        <xsl:otherwise>            "DetailType": "SalesItemLineDetail",             "SalesItemLineDetail":{        "TaxCodeRef": {        "value": "NON"        },        "Qty":<xsl:value-of select="expr1"/>,        "ItemRef":{        "value": "<xsl:value-of select="$lookups/item[sku=$product_code]/id"/>",        "name":"<xsl:value-of select="translate(Name,$double_quote, $apos)"/>"        }        },</xsl:otherwise>
+                    </xsl:choose>        "LineNum":<xsl:value-of select="position()"/>,        "Amount":<xsl:value-of select="expr0"/>        }<xsl:if test="$RecordLength!=position()">,</xsl:if>
+                </xsl:for-each>        ]}    </qbo>
+        </xsl:template>
+    </xsl:stylesheet>

@@ -1,0 +1,224 @@
+
+<queryResponse>
+   <result type="QueryResult">
+      <done>true</done>
+      <queryLocator nil="true"/>
+      <records type="sf:sObject">
+         <type>CreditMemoLine</type>
+         <Id>9yx5e000000TQMXAA4</Id>
+         <Id>9yx5e000000TQMXAA4</Id>
+         <IsDeleted>false</IsDeleted>
+         <Name>Lotus Oven-Baked Good Grains Chicken Recipe</Name>
+         <CreatedDate>2022-07-13T19:40:18.000Z</CreatedDate>
+         <CreatedById>0055e000005xTKlAAM</CreatedById>
+         <LastModifiedDate>2022-07-13T19:40:18.000Z</LastModifiedDate>
+         <LastModifiedById>0055e000005xTKlAAM</LastModifiedById>
+         <SystemModstamp>2022-07-13T19:40:18.000Z</SystemModstamp>
+         <CreditMemoId>50g5e000000TQMVAA4</CreditMemoId>
+         <ReferenceEntityItemId>10u5e000000cbvnAAA</ReferenceEntityItemId>
+         <StartDate nil="true"/>
+         <EndDate nil="true"/>
+         <TaxEffectiveDate nil="true"/>
+         <Type>Charge</Type>
+         <TaxCode nil="true"/>
+         <TaxRate nil="true"/>
+         <Status>Posted</Status>
+         <ChargeAmount>74.49</ChargeAmount>
+         <TaxAmount nil="true"/>
+         <AdjustmentAmount nil="true"/>
+         <LineAmount>74.49</LineAmount>
+         <Description nil="true"/>
+         <ReferenceEntityItemTypeCode>Product</ReferenceEntityItemTypeCode>
+         <ReferenceEntityItemType>Order Product</ReferenceEntityItemType>
+         <RelatedLineId nil="true"/>
+         <Product2Id>01t5e000004M2M9AAK</Product2Id>
+         <TaxName nil="true"/>
+         <GrossUnitPrice nil="true"/>
+         <ChargeTaxAmount>4.95</ChargeTaxAmount>
+         <ChargeAmountWithTax>79.44</ChargeAmountWithTax>
+         <AdjustmentTaxAmount>0.0</AdjustmentTaxAmount>
+         <AdjustmentAmountWithTax>0.0</AdjustmentAmountWithTax>
+      </records>
+      <records type="sf:sObject">
+         <type>CreditMemoLine</type>
+         <Id>9yx5e000000TQMYAA4</Id>
+         <Id>9yx5e000000TQMYAA4</Id>
+         <IsDeleted>false</IsDeleted>
+         <Name>320431 - Product Price Adjustment</Name>
+         <CreatedDate>2022-07-13T19:40:18.000Z</CreatedDate>
+         <CreatedById>0055e000005xTKlAAM</CreatedById>
+         <LastModifiedDate>2022-07-13T19:40:18.000Z</LastModifiedDate>
+         <LastModifiedById>0055e000005xTKlAAM</LastModifiedById>
+         <SystemModstamp>2022-07-13T19:40:18.000Z</SystemModstamp>
+         <CreditMemoId>50g5e000000TQMVAA4</CreditMemoId>
+         <ReferenceEntityItemId nil="true"/>
+         <StartDate nil="true"/>
+         <EndDate nil="true"/>
+         <TaxEffectiveDate nil="true"/>
+         <Type>Adjustment</Type>
+         <TaxCode nil="true"/>
+         <TaxRate nil="true"/>
+         <Status>Posted</Status>
+         <ChargeAmount nil="true"/>
+         <TaxAmount nil="true"/>
+         <AdjustmentAmount>-22.35</AdjustmentAmount>
+         <LineAmount>-22.35</LineAmount>
+         <Description nil="true"/>
+         <ReferenceEntityItemTypeCode nil="true"/>
+         <ReferenceEntityItemType nil="true"/>
+         <RelatedLineId>9yx5e000000TQMXAA4</RelatedLineId>
+         <Product2Id nil="true"/>
+         <TaxName nil="true"/>
+         <GrossUnitPrice nil="true"/>
+         <ChargeTaxAmount>0.0</ChargeTaxAmount>
+         <ChargeAmountWithTax>0.0</ChargeAmountWithTax>
+         <AdjustmentTaxAmount>0.0</AdjustmentTaxAmount>
+         <AdjustmentAmountWithTax>-22.35</AdjustmentAmountWithTax>
+      </records>
+      <records type="sf:sObject">
+         <type>CreditMemoLine</type>
+         <Id>9yx5e000000TQMZAA4</Id>
+         <Id>9yx5e000000TQMZAA4</Id>
+         <IsDeleted>false</IsDeleted>
+         <Name>320431 - Adjustment Tax</Name>
+         <CreatedDate>2022-07-13T19:40:18.000Z</CreatedDate>
+         <CreatedById>0055e000005xTKlAAM</CreatedById>
+         <LastModifiedDate>2022-07-13T19:40:18.000Z</LastModifiedDate>
+         <LastModifiedById>0055e000005xTKlAAM</LastModifiedById>
+         <SystemModstamp>2022-07-13T19:40:18.000Z</SystemModstamp>
+         <CreditMemoId>50g5e000000TQMVAA4</CreditMemoId>
+         <ReferenceEntityItemId nil="true"/>
+         <StartDate nil="true"/>
+         <EndDate nil="true"/>
+         <TaxEffectiveDate>2022-07-13</TaxEffectiveDate>
+         <Type>Tax</Type>
+         <TaxCode nil="true"/>
+         <TaxRate nil="true"/>
+         <Status>Posted</Status>
+         <ChargeAmount nil="true"/>
+         <TaxAmount>0.0</TaxAmount>
+         <AdjustmentAmount nil="true"/>
+         <LineAmount>0.0</LineAmount>
+         <Description nil="true"/>
+         <ReferenceEntityItemTypeCode nil="true"/>
+         <ReferenceEntityItemType nil="true"/>
+         <RelatedLineId>9yx5e000000TQMYAA4</RelatedLineId>
+         <Product2Id nil="true"/>
+         <TaxName>320431 - Adjustment Tax</TaxName>
+         <GrossUnitPrice nil="true"/>
+         <ChargeTaxAmount>0.0</ChargeTaxAmount>
+         <ChargeAmountWithTax>0.0</ChargeAmountWithTax>
+         <AdjustmentTaxAmount>0.0</AdjustmentTaxAmount>
+         <AdjustmentAmountWithTax>0.0</AdjustmentAmountWithTax>
+      </records>
+      <records type="sf:sObject">
+         <type>CreditMemoLine</type>
+         <Id>9yx5e000000TQMaAAO</Id>
+         <Id>9yx5e000000TQMaAAO</Id>
+         <IsDeleted>false</IsDeleted>
+         <Name>320431 - Tax</Name>
+         <CreatedDate>2022-07-13T19:40:18.000Z</CreatedDate>
+         <CreatedById>0055e000005xTKlAAM</CreatedById>
+         <LastModifiedDate>2022-07-13T19:40:18.000Z</LastModifiedDate>
+         <LastModifiedById>0055e000005xTKlAAM</LastModifiedById>
+         <SystemModstamp>2022-07-13T19:40:18.000Z</SystemModstamp>
+         <CreditMemoId>50g5e000000TQMVAA4</CreditMemoId>
+         <ReferenceEntityItemId nil="true"/>
+         <StartDate nil="true"/>
+         <EndDate nil="true"/>
+         <TaxEffectiveDate>2022-07-13</TaxEffectiveDate>
+         <Type>Tax</Type>
+         <TaxCode nil="true"/>
+         <TaxRate nil="true"/>
+         <Status>Posted</Status>
+         <ChargeAmount nil="true"/>
+         <TaxAmount>4.95</TaxAmount>
+         <AdjustmentAmount nil="true"/>
+         <LineAmount>4.95</LineAmount>
+         <Description nil="true"/>
+         <ReferenceEntityItemTypeCode nil="true"/>
+         <ReferenceEntityItemType nil="true"/>
+         <RelatedLineId>9yx5e000000TQMXAA4</RelatedLineId>
+         <Product2Id nil="true"/>
+         <TaxName>320431 - Tax</TaxName>
+         <GrossUnitPrice nil="true"/>
+         <ChargeTaxAmount>0.0</ChargeTaxAmount>
+         <ChargeAmountWithTax>0.0</ChargeAmountWithTax>
+         <AdjustmentTaxAmount>0.0</AdjustmentTaxAmount>
+         <AdjustmentAmountWithTax>0.0</AdjustmentAmountWithTax>
+      </records>
+      <records type="sf:sObject">
+         <type>CreditMemoLine</type>
+         <Id>9yx5e000000TQMbAAO</Id>
+         <Id>9yx5e000000TQMbAAO</Id>
+         <IsDeleted>false</IsDeleted>
+         <Name>Shipping</Name>
+         <CreatedDate>2022-07-13T19:40:18.000Z</CreatedDate>
+         <CreatedById>0055e000005xTKlAAM</CreatedById>
+         <LastModifiedDate>2022-07-13T19:40:18.000Z</LastModifiedDate>
+         <LastModifiedById>0055e000005xTKlAAM</LastModifiedById>
+         <SystemModstamp>2022-07-13T19:40:18.000Z</SystemModstamp>
+         <CreditMemoId>50g5e000000TQMVAA4</CreditMemoId>
+         <ReferenceEntityItemId>10u5e000000cbvoAAA</ReferenceEntityItemId>
+         <StartDate nil="true"/>
+         <EndDate nil="true"/>
+         <TaxEffectiveDate nil="true"/>
+         <Type>Charge</Type>
+         <TaxCode nil="true"/>
+         <TaxRate nil="true"/>
+         <Status>Posted</Status>
+         <ChargeAmount>5.99</ChargeAmount>
+         <TaxAmount nil="true"/>
+         <AdjustmentAmount nil="true"/>
+         <LineAmount>5.99</LineAmount>
+         <Description nil="true"/>
+         <ReferenceEntityItemTypeCode>Charge</ReferenceEntityItemTypeCode>
+         <ReferenceEntityItemType>Delivery Charge</ReferenceEntityItemType>
+         <RelatedLineId nil="true"/>
+         <Product2Id>01t5e000003jvAJAAY</Product2Id>
+         <TaxName nil="true"/>
+         <GrossUnitPrice nil="true"/>
+         <ChargeTaxAmount>0.0</ChargeTaxAmount>
+         <ChargeAmountWithTax>5.99</ChargeAmountWithTax>
+         <AdjustmentTaxAmount>0.0</AdjustmentTaxAmount>
+         <AdjustmentAmountWithTax>0.0</AdjustmentAmountWithTax>
+      </records>
+      <records type="sf:sObject">
+         <type>CreditMemoLine</type>
+         <Id>9yx5e000000TQMcAAO</Id>
+         <Id>9yx5e000000TQMcAAO</Id>
+         <IsDeleted>false</IsDeleted>
+         <Name>DeliveryCharge - Tax</Name>
+         <CreatedDate>2022-07-13T19:40:18.000Z</CreatedDate>
+         <CreatedById>0055e000005xTKlAAM</CreatedById>
+         <LastModifiedDate>2022-07-13T19:40:18.000Z</LastModifiedDate>
+         <LastModifiedById>0055e000005xTKlAAM</LastModifiedById>
+         <SystemModstamp>2022-07-13T19:40:18.000Z</SystemModstamp>
+         <CreditMemoId>50g5e000000TQMVAA4</CreditMemoId>
+         <ReferenceEntityItemId nil="true"/>
+         <StartDate nil="true"/>
+         <EndDate nil="true"/>
+         <TaxEffectiveDate>2022-07-13</TaxEffectiveDate>
+         <Type>Tax</Type>
+         <TaxCode nil="true"/>
+         <TaxRate nil="true"/>
+         <Status>Posted</Status>
+         <ChargeAmount nil="true"/>
+         <TaxAmount>0.0</TaxAmount>
+         <AdjustmentAmount nil="true"/>
+         <LineAmount>0.0</LineAmount>
+         <Description nil="true"/>
+         <ReferenceEntityItemTypeCode nil="true"/>
+         <ReferenceEntityItemType nil="true"/>
+         <RelatedLineId>9yx5e000000TQMbAAO</RelatedLineId>
+         <Product2Id nil="true"/>
+         <TaxName>DeliveryCharge - Tax</TaxName>
+         <GrossUnitPrice nil="true"/>
+         <ChargeTaxAmount>0.0</ChargeTaxAmount>
+         <ChargeAmountWithTax>0.0</ChargeAmountWithTax>
+         <AdjustmentTaxAmount>0.0</AdjustmentTaxAmount>
+         <AdjustmentAmountWithTax>0.0</AdjustmentAmountWithTax>
+      </records>
+      <size>6</size>
+   </result>
+</queryResponse>

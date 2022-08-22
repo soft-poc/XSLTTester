@@ -1,0 +1,338 @@
+<SalesCredit>
+   <result type="QueryResult">
+      <done>true</done>
+      <queryLocator nil="true"/>
+      <records type="sf:sObject">
+         <type>CreditMemo</type>
+         <Id>50g5e000000TQMLAA4</Id>
+         <Id>50g5e000000TQMLAA4</Id>
+         <OwnerId>0055e000005xTKlAAM</OwnerId>
+         <IsDeleted>false</IsDeleted>
+         <DocumentNumber>DOC-0000000007</DocumentNumber>
+         <CreatedDate>2022-07-13T08:58:30.000Z</CreatedDate>
+         <CreatedById>0055e000005xTKlAAM</CreatedById>
+         <LastModifiedDate>2022-07-13T08:58:32.000Z</LastModifiedDate>
+         <LastModifiedById>0055e000005hwmTAAQ</LastModifiedById>
+         <SystemModstamp>2022-07-13T08:58:32.000Z</SystemModstamp>
+         <LastViewedDate>2022-07-13T10:37:30.000Z</LastViewedDate>
+         <LastReferencedDate>2022-07-13T10:37:30.000Z</LastReferencedDate>
+         <BillingAccountId>0015e00000s3LN9AAM</BillingAccountId>
+         <ReferenceEntityId>1Os5e000000cbydCAA</ReferenceEntityId>
+         <CreditMemoNumber nil="true"/>
+         <TotalAmount>41.97</TotalAmount>
+         <TotalAmountWithTax>45.2</TotalAmountWithTax>
+         <TotalChargeAmount>41.97</TotalChargeAmount>
+         <TotalAdjustmentAmount>0.0</TotalAdjustmentAmount>
+         <TotalTaxAmount>3.23</TotalTaxAmount>
+         <CreditDate>2022-07-13</CreditDate>
+         <Description nil="true"/>
+         <Status>Posted</Status>
+         <BillToContactId nil="true"/>
+         <Balance>0.0</Balance>
+         <TaxLocaleType>Net</TaxLocaleType>
+         <TotalChargeTaxAmount>3.23</TotalChargeTaxAmount>
+         <TotalChargeAmountWithTax>45.2</TotalChargeAmountWithTax>
+         <TotalAdjustmentTaxAmount>0.0</TotalAdjustmentTaxAmount>
+         <TotalAdjustmentAmountWithTax>0.0</TotalAdjustmentAmountWithTax>
+      </records>
+      <size>1</size>
+   </result>
+   <result type="QueryResult">
+      <done>true</done>
+      <queryLocator nil="true"/>
+      <records type="sf:sObject">
+         <type>CreditMemoLine</type>
+         <Id>9yx5e000000TQMMAA4</Id>
+         <Id>9yx5e000000TQMMAA4</Id>
+         <IsDeleted>false</IsDeleted>
+         <Name>2 Lb. Beef Butcher'S Blend Topper</Name>
+         <CreatedDate>2022-07-13T08:58:30.000Z</CreatedDate>
+         <CreatedById>0055e000005xTKlAAM</CreatedById>
+         <LastModifiedDate>2022-07-13T08:58:30.000Z</LastModifiedDate>
+         <LastModifiedById>0055e000005xTKlAAM</LastModifiedById>
+         <SystemModstamp>2022-07-13T08:58:30.000Z</SystemModstamp>
+         <CreditMemoId>50g5e000000TQMLAA4</CreditMemoId>
+         <ReferenceEntityItemId>10u5e000000cbufAAA</ReferenceEntityItemId>
+         <StartDate nil="true"/>
+         <EndDate nil="true"/>
+         <TaxEffectiveDate nil="true"/>
+         <Type>Charge</Type>
+         <TaxCode nil="true"/>
+         <TaxRate nil="true"/>
+         <Status>Posted</Status>
+         <ChargeAmount>11.99</ChargeAmount>
+         <TaxAmount nil="true"/>
+         <AdjustmentAmount nil="true"/>
+         <LineAmount>11.99</LineAmount>
+         <Description nil="true"/>
+         <ReferenceEntityItemTypeCode>Product</ReferenceEntityItemTypeCode>
+         <ReferenceEntityItemType>Order Product</ReferenceEntityItemType>
+         <RelatedLineId nil="true"/>
+         <Product2Id>01t5e000004MMOaAAO</Product2Id>
+         <TaxName nil="true"/>
+         <GrossUnitPrice nil="true"/>
+         <ChargeTaxAmount>1.14</ChargeTaxAmount>
+         <ChargeAmountWithTax>13.13</ChargeAmountWithTax>
+         <AdjustmentTaxAmount>0.0</AdjustmentTaxAmount>
+         <AdjustmentAmountWithTax>0.0</AdjustmentAmountWithTax>
+      </records>
+      <records type="sf:sObject">
+         <type>CreditMemoLine</type>
+         <Id>9yx5e000000TQMNAA4</Id>
+         <Id>9yx5e000000TQMNAA4</Id>
+         <IsDeleted>false</IsDeleted>
+         <Name>411394 - Tax</Name>
+         <CreatedDate>2022-07-13T08:58:30.000Z</CreatedDate>
+         <CreatedById>0055e000005xTKlAAM</CreatedById>
+         <LastModifiedDate>2022-07-13T08:58:30.000Z</LastModifiedDate>
+         <LastModifiedById>0055e000005xTKlAAM</LastModifiedById>
+         <SystemModstamp>2022-07-13T08:58:30.000Z</SystemModstamp>
+         <CreditMemoId>50g5e000000TQMLAA4</CreditMemoId>
+         <ReferenceEntityItemId nil="true"/>
+         <StartDate nil="true"/>
+         <EndDate nil="true"/>
+         <TaxEffectiveDate>2022-07-13</TaxEffectiveDate>
+         <Type>Tax</Type>
+         <TaxCode nil="true"/>
+         <TaxRate nil="true"/>
+         <Status>Posted</Status>
+         <ChargeAmount nil="true"/>
+         <TaxAmount>1.14</TaxAmount>
+         <AdjustmentAmount nil="true"/>
+         <LineAmount>1.14</LineAmount>
+         <Description nil="true"/>
+         <ReferenceEntityItemTypeCode nil="true"/>
+         <ReferenceEntityItemType nil="true"/>
+         <RelatedLineId>9yx5e000000TQMMAA4</RelatedLineId>
+         <Product2Id nil="true"/>
+         <TaxName>411394 - Tax</TaxName>
+         <GrossUnitPrice nil="true"/>
+         <ChargeTaxAmount>0.0</ChargeTaxAmount>
+         <ChargeAmountWithTax>0.0</ChargeAmountWithTax>
+         <AdjustmentTaxAmount>0.0</AdjustmentTaxAmount>
+         <AdjustmentAmountWithTax>0.0</AdjustmentAmountWithTax>
+      </records>
+      <records type="sf:sObject">
+         <type>CreditMemoLine</type>
+         <Id>9yx5e000000TQMOAA4</Id>
+         <Id>9yx5e000000TQMOAA4</Id>
+         <IsDeleted>false</IsDeleted>
+         <Name>Frozen Dog Chicken Sliders 3Lb</Name>
+         <CreatedDate>2022-07-13T08:58:30.000Z</CreatedDate>
+         <CreatedById>0055e000005xTKlAAM</CreatedById>
+         <LastModifiedDate>2022-07-13T08:58:30.000Z</LastModifiedDate>
+         <LastModifiedById>0055e000005xTKlAAM</LastModifiedById>
+         <SystemModstamp>2022-07-13T08:58:30.000Z</SystemModstamp>
+         <CreditMemoId>50g5e000000TQMLAA4</CreditMemoId>
+         <ReferenceEntityItemId>10u5e000000cbugAAA</ReferenceEntityItemId>
+         <StartDate nil="true"/>
+         <EndDate nil="true"/>
+         <TaxEffectiveDate nil="true"/>
+         <Type>Charge</Type>
+         <TaxCode nil="true"/>
+         <TaxRate nil="true"/>
+         <Status>Posted</Status>
+         <ChargeAmount>21.99</ChargeAmount>
+         <TaxAmount nil="true"/>
+         <AdjustmentAmount nil="true"/>
+         <LineAmount>21.99</LineAmount>
+         <Description nil="true"/>
+         <ReferenceEntityItemTypeCode>Product</ReferenceEntityItemTypeCode>
+         <ReferenceEntityItemType>Order Product</ReferenceEntityItemType>
+         <RelatedLineId nil="true"/>
+         <Product2Id>01t5e000004MMObAAO</Product2Id>
+         <TaxName nil="true"/>
+         <GrossUnitPrice nil="true"/>
+         <ChargeTaxAmount>2.09</ChargeTaxAmount>
+         <ChargeAmountWithTax>24.08</ChargeAmountWithTax>
+         <AdjustmentTaxAmount>0.0</AdjustmentTaxAmount>
+         <AdjustmentAmountWithTax>0.0</AdjustmentAmountWithTax>
+      </records>
+      <records type="sf:sObject">
+         <type>CreditMemoLine</type>
+         <Id>9yx5e000000TQMPAA4</Id>
+         <Id>9yx5e000000TQMPAA4</Id>
+         <IsDeleted>false</IsDeleted>
+         <Name>405257 - Tax</Name>
+         <CreatedDate>2022-07-13T08:58:30.000Z</CreatedDate>
+         <CreatedById>0055e000005xTKlAAM</CreatedById>
+         <LastModifiedDate>2022-07-13T08:58:30.000Z</LastModifiedDate>
+         <LastModifiedById>0055e000005xTKlAAM</LastModifiedById>
+         <SystemModstamp>2022-07-13T08:58:30.000Z</SystemModstamp>
+         <CreditMemoId>50g5e000000TQMLAA4</CreditMemoId>
+         <ReferenceEntityItemId nil="true"/>
+         <StartDate nil="true"/>
+         <EndDate nil="true"/>
+         <TaxEffectiveDate>2022-07-13</TaxEffectiveDate>
+         <Type>Tax</Type>
+         <TaxCode nil="true"/>
+         <TaxRate nil="true"/>
+         <Status>Posted</Status>
+         <ChargeAmount nil="true"/>
+         <TaxAmount>2.09</TaxAmount>
+         <AdjustmentAmount nil="true"/>
+         <LineAmount>2.09</LineAmount>
+         <Description nil="true"/>
+         <ReferenceEntityItemTypeCode nil="true"/>
+         <ReferenceEntityItemType nil="true"/>
+         <RelatedLineId>9yx5e000000TQMOAA4</RelatedLineId>
+         <Product2Id nil="true"/>
+         <TaxName>405257 - Tax</TaxName>
+         <GrossUnitPrice nil="true"/>
+         <ChargeTaxAmount>0.0</ChargeTaxAmount>
+         <ChargeAmountWithTax>0.0</ChargeAmountWithTax>
+         <AdjustmentTaxAmount>0.0</AdjustmentTaxAmount>
+         <AdjustmentAmountWithTax>0.0</AdjustmentAmountWithTax>
+      </records>
+      <records type="sf:sObject">
+         <type>CreditMemoLine</type>
+         <Id>9yx5e000000TQMQAA4</Id>
+         <Id>9yx5e000000TQMQAA4</Id>
+         <IsDeleted>false</IsDeleted>
+         <Name>Shipping</Name>
+         <CreatedDate>2022-07-13T08:58:30.000Z</CreatedDate>
+         <CreatedById>0055e000005xTKlAAM</CreatedById>
+         <LastModifiedDate>2022-07-13T08:58:30.000Z</LastModifiedDate>
+         <LastModifiedById>0055e000005xTKlAAM</LastModifiedById>
+         <SystemModstamp>2022-07-13T08:58:30.000Z</SystemModstamp>
+         <CreditMemoId>50g5e000000TQMLAA4</CreditMemoId>
+         <ReferenceEntityItemId>10u5e000000cbuhAAA</ReferenceEntityItemId>
+         <StartDate nil="true"/>
+         <EndDate nil="true"/>
+         <TaxEffectiveDate nil="true"/>
+         <Type>Charge</Type>
+         <TaxCode nil="true"/>
+         <TaxRate nil="true"/>
+         <Status>Posted</Status>
+         <ChargeAmount>7.99</ChargeAmount>
+         <TaxAmount nil="true"/>
+         <AdjustmentAmount nil="true"/>
+         <LineAmount>7.99</LineAmount>
+         <Description nil="true"/>
+         <ReferenceEntityItemTypeCode>Charge</ReferenceEntityItemTypeCode>
+         <ReferenceEntityItemType>Delivery Charge</ReferenceEntityItemType>
+         <RelatedLineId nil="true"/>
+         <Product2Id>01t5e000003kNJYAA2</Product2Id>
+         <TaxName nil="true"/>
+         <GrossUnitPrice nil="true"/>
+         <ChargeTaxAmount>0.0</ChargeTaxAmount>
+         <ChargeAmountWithTax>7.99</ChargeAmountWithTax>
+         <AdjustmentTaxAmount>0.0</AdjustmentTaxAmount>
+         <AdjustmentAmountWithTax>0.0</AdjustmentAmountWithTax>
+      </records>
+      <records type="sf:sObject">
+         <type>CreditMemoLine</type>
+         <Id>9yx5e000000TQMRAA4</Id>
+         <Id>9yx5e000000TQMRAA4</Id>
+         <IsDeleted>false</IsDeleted>
+         <Name>DeliveryCharge - Tax</Name>
+         <CreatedDate>2022-07-13T08:58:30.000Z</CreatedDate>
+         <CreatedById>0055e000005xTKlAAM</CreatedById>
+         <LastModifiedDate>2022-07-13T08:58:30.000Z</LastModifiedDate>
+         <LastModifiedById>0055e000005xTKlAAM</LastModifiedById>
+         <SystemModstamp>2022-07-13T08:58:30.000Z</SystemModstamp>
+         <CreditMemoId>50g5e000000TQMLAA4</CreditMemoId>
+         <ReferenceEntityItemId nil="true"/>
+         <StartDate nil="true"/>
+         <EndDate nil="true"/>
+         <TaxEffectiveDate>2022-07-13</TaxEffectiveDate>
+         <Type>Tax</Type>
+         <TaxCode nil="true"/>
+         <TaxRate nil="true"/>
+         <Status>Posted</Status>
+         <ChargeAmount nil="true"/>
+         <TaxAmount>0.0</TaxAmount>
+         <AdjustmentAmount nil="true"/>
+         <LineAmount>0.0</LineAmount>
+         <Description nil="true"/>
+         <ReferenceEntityItemTypeCode nil="true"/>
+         <ReferenceEntityItemType nil="true"/>
+         <RelatedLineId>9yx5e000000TQMQAA4</RelatedLineId>
+         <Product2Id nil="true"/>
+         <TaxName>DeliveryCharge - Tax</TaxName>
+         <GrossUnitPrice nil="true"/>
+         <ChargeTaxAmount>0.0</ChargeTaxAmount>
+         <ChargeAmountWithTax>0.0</ChargeAmountWithTax>
+         <AdjustmentTaxAmount>0.0</AdjustmentTaxAmount>
+         <AdjustmentAmountWithTax>0.0</AdjustmentAmountWithTax>
+      </records>
+      <size>6</size>
+   </result>
+   <result type="QueryResult">
+      <done>true</done>
+      <queryLocator nil="true"/>
+      <records type="sf:sObject">
+         <type>Product2</type>
+         <Id>01t5e000003kNJYAA2</Id>
+         <Id>01t5e000003kNJYAA2</Id>
+         <Name>Same Day Delivery</Name>
+         <ProductCode>002</ProductCode>
+         <Description nil="true"/>
+         <IsActive>true</IsActive>
+         <CreatedDate>2022-02-01T07:18:37.000Z</CreatedDate>
+         <CreatedById>0055e000005xsmhAAA</CreatedById>
+         <LastModifiedDate>2022-02-01T07:18:37.000Z</LastModifiedDate>
+         <LastModifiedById>0055e000005xsmhAAA</LastModifiedById>
+         <SystemModstamp>2022-02-01T07:25:22.000Z</SystemModstamp>
+         <Family nil="true"/>
+         <ExternalDataSourceId nil="true"/>
+         <ExternalId nil="true"/>
+         <DisplayUrl nil="true"/>
+         <QuantityUnitOfMeasure nil="true"/>
+         <IsDeleted>false</IsDeleted>
+         <IsArchived>false</IsArchived>
+         <LastViewedDate>2022-07-08T17:21:49.000Z</LastViewedDate>
+         <LastReferencedDate>2022-07-08T17:21:49.000Z</LastReferencedDate>
+         <StockKeepingUnit nil="true"/>
+      </records>
+      <records type="sf:sObject">
+         <type>Product2</type>
+         <Id>01t5e000004MMOaAAO</Id>
+         <Id>01t5e000004MMOaAAO</Id>
+         <Name>2 Lb. Beef Butcher'S Blend Topper</Name>
+         <ProductCode>411394</ProductCode>
+         <Description>2 Lb. Beef Butcher'S Blend Topper</Description>
+         <IsActive>true</IsActive>
+         <CreatedDate>2022-07-13T08:36:00.000Z</CreatedDate>
+         <CreatedById>0055e000005WJplAAG</CreatedById>
+         <LastModifiedDate>2022-07-13T08:36:00.000Z</LastModifiedDate>
+         <LastModifiedById>0055e000005WJplAAG</LastModifiedById>
+         <SystemModstamp>2022-07-13T08:36:00.000Z</SystemModstamp>
+         <Family nil="true"/>
+         <ExternalDataSourceId nil="true"/>
+         <ExternalId nil="true"/>
+         <DisplayUrl nil="true"/>
+         <QuantityUnitOfMeasure nil="true"/>
+         <IsDeleted>false</IsDeleted>
+         <IsArchived>false</IsArchived>
+         <LastViewedDate nil="true"/>
+         <LastReferencedDate nil="true"/>
+         <StockKeepingUnit>411394</StockKeepingUnit>
+      </records>
+      <records type="sf:sObject">
+         <type>Product2</type>
+         <Id>01t5e000004MMObAAO</Id>
+         <Id>01t5e000004MMObAAO</Id>
+         <Name>Frozen Dog Chicken Sliders 3Lb</Name>
+         <ProductCode>405257</ProductCode>
+         <Description>Frozen Dog Chicken Sliders 3Lb</Description>
+         <IsActive>true</IsActive>
+         <CreatedDate>2022-07-13T08:36:00.000Z</CreatedDate>
+         <CreatedById>0055e000005WJplAAG</CreatedById>
+         <LastModifiedDate>2022-07-13T08:36:00.000Z</LastModifiedDate>
+         <LastModifiedById>0055e000005WJplAAG</LastModifiedById>
+         <SystemModstamp>2022-07-13T08:36:00.000Z</SystemModstamp>
+         <Family nil="true"/>
+         <ExternalDataSourceId nil="true"/>
+         <ExternalId nil="true"/>
+         <DisplayUrl nil="true"/>
+         <QuantityUnitOfMeasure nil="true"/>
+         <IsDeleted>false</IsDeleted>
+         <IsArchived>false</IsArchived>
+         <LastViewedDate nil="true"/>
+         <LastReferencedDate nil="true"/>
+         <StockKeepingUnit>405257</StockKeepingUnit>
+      </records>
+      <size>3</size>
+   </result>
+</SalesCredit>
